@@ -1,0 +1,43 @@
+/* Inicio Footer */
+.boxfooter {
+    height: auto;
+    background-color: $color-footer;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.482);
+
+}
+
+.footer-prim {
+    background-color: $color-secundario;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+.boxfooter a {
+    text-decoration: none;
+    color: #000;
+}
+
+.boxfooter a:hover {
+    color: $color-secundario;
+}
+
+.boxfooter i {
+    font-size: x-large;
+}
+
+.boxfooter h6 {
+    color: #FFF;
+}
+
+.boxfooter img {
+    padding: 10px;
+}
+
+#a-link:hover {
+    color: #FFF;
+}
+
+.redes {
+    align-self: center;
+}
+
+/* Fin Footer */

@@ -1,0 +1,23 @@
+/* Newsletter */
+.newsletter {
+    background-color: $color-footer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.904);
+}
+
+form input:focus {
+    border: 1px solid $color-secundario !important;
+    box-shadow: none !important;
+}
+
+.form-news {
+    text-align: center;
+    padding: 20px;
+}
+
+.form-news input {
+
+    width: 300px;
+
+}
+
+/* Fin Newsletter */

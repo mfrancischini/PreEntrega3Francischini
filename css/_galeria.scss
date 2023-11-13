@@ -1,0 +1,41 @@
+/* Bloque Galeria */
+
+.contenedor-imagenes {
+    background-color: #fff;
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "img1 img2 img3 img4"
+        "img5 img6 img7 img8"
+        "img9 img10 img11 img12";
+    grid-gap: 15px;
+    padding: 30px;
+
+}
+
+.item {
+    border: 3px solid #fff;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.item:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+@for $i from 1 through 12 {
+    .item#{$i} {
+        grid-area: img#{$i};
+        background-image:url(/imagenes/img#{$i}.jpg);
+    }
+
+}
+
+
+/* Fin Bloque Galeria */

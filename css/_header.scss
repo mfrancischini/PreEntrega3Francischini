@@ -1,0 +1,59 @@
+/* Inicio Header */
+
+.item-logo {
+    font-size: x-large;
+}
+
+.item-logo a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-manzana {
+    background-image: linear-gradient(to right top, #a7efd0, #92f2b5, #8cf290, #95f061, #a8eb12);
+}
+
+.navbar {
+    background-image: linear-gradient(to right top, #a7efd0, #92f2b5, #8cf290, #95f061, #a8eb12);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+.boton li:hover {
+    background-color: $color-secundario;
+    border-radius: 4px;
+}
+
+.boton li:active {
+    background-color: $color-footer;
+}
+
+.btn {
+    height: 30px;
+    align-self: center;
+    border: none;
+}
+
+.boton a {
+    color: #fff;
+}
+
+input {
+    height: 30px;
+}
+
+button i {
+    font-size: larger;
+    color: #000;
+}
+
+button i:hover {
+    color: #fff;
+}
+
+/* Estilos para el botón cuando está en hover */
+.btn.btn-outline-success:hover {
+    background-color: $color-secundario;
+    color: #fff;
+}
+
+/* Fin  Header */

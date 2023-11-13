@@ -1,0 +1,96 @@
+/* Inicio Novedades*/
+
+section {
+    max-width: 90%;
+}
+
+@mixin title {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $color-footer;
+    color: #fff;
+  }
+
+h1 {
+    @include title;
+    font-size: 25px;
+}
+h2 {
+    @include title;
+    font-size: 20px;
+}
+
+
+.novedades {
+    display: flex;
+    flex-direction: row;
+}
+
+@for $i from 1 through 6 {
+    .novedades-img#{$i} {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px 20px 0px 0px;
+        background-image:url(../imagenes/novedad#{$i}.jpg);
+    }
+
+}
+
+.novedades-titulo {
+    color: rgba(47, 66, 13, 0.872);
+    font-size: 25px;
+    padding: 5px;
+}
+
+.novedades-desc {
+
+    padding: 15px;
+}
+
+
+.novedades-redes a {
+    color: $color-secundario;
+    font-size: 35px;
+    letter-spacing: 15px;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+.card-title {
+    text-shadow: 2px 2px 10px #a7a0a0cf;
+}
+
+
+.custom-carousel-prev .carousel-control-prev-icon {
+    background-color: $color-secundario;
+    border-radius: 50%;
+}
+
+.custom-carousel-next .carousel-control-next-icon {
+    background-color: $color-secundario;
+    border-radius: 50%;
+}
+
+/* Fin Novedades */
+
+
+/* Bloque Novedades Home */
+
+.btn-nov {
+    width: 100px;
+    border-radius: 5px;
+    color: #000;
+    background-color: $color-footer;
+
+    &:hover {
+        background-color: $color-secundario;
+        color: #FFF;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+    }
+
+}
+
