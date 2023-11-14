@@ -32,12 +32,25 @@
 
 
 @for $i from 1 through 12 {
-    .item#{$i} {
-        grid-area: img#{$i};
-        background-image:url(../imagenes/img#{$i}.jpg);
+    @if $i % 2==0 {
+        .item#{$i} {
+            grid-area: img#{$i};
+            background-image: url(../imagenes/img#{$i}.jpg);
+            border-color: $color-secundario;
+           
+        }
     }
 
+    @else {
+        .item#{$i} {
+            grid-area: img#{$i};
+            background-image: url(../imagenes/img#{$i}.jpg);
+            border-radius: 50%;  
+            border-color: $color-footer;  
+        }
+    }
 }
+
 
 
 /* Fin Bloque Galeria */

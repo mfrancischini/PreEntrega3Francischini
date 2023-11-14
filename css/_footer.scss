@@ -1,5 +1,8 @@
 /* Inicio Footer */
 
+$animation-duration: 1s;
+$animation-timing-function: ease-in-out;
+
 h3 {
     text-align: center;
     text-transform: uppercase;
@@ -50,10 +53,6 @@ h3 {
 .redes {
     align-self: center;
 }
-
-// Definir variables para la duración y el tipo de animación
-$animation-duration: 1s;
-$animation-timing-function: ease-in-out;
 
 .rotate-animation {
   transform: rotate(0deg);

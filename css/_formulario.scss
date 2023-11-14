@@ -19,4 +19,24 @@
     }
 }
 
+#titulo-formulario {
+    text-align: center;
+    text-transform: uppercase;
+    color: #00000098;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+        color: $color-secundario;
+    }
+}
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 /* Fin Formulario Contacto */

@@ -81,6 +81,26 @@ h3 {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
 }
 
+#titulo-formulario {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5960784314);
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: rgb(122, 113, 29);
+}
+
+span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /* Fin Formulario Contacto */
 /* Bloque Galeria */
 .contenedor-imagenes {
@@ -110,61 +130,79 @@ h3 {
 .item1 {
   grid-area: img1;
   background-image: url(../imagenes/img1.jpg);
+  border-radius: 50%;
+  border-color: rgba(122, 113, 29, 0.336);
 }
 
 .item2 {
   grid-area: img2;
   background-image: url(../imagenes/img2.jpg);
+  border-color: rgb(122, 113, 29);
 }
 
 .item3 {
   grid-area: img3;
   background-image: url(../imagenes/img3.jpg);
+  border-radius: 50%;
+  border-color: rgba(122, 113, 29, 0.336);
 }
 
 .item4 {
   grid-area: img4;
   background-image: url(../imagenes/img4.jpg);
+  border-color: rgb(122, 113, 29);
 }
 
 .item5 {
   grid-area: img5;
   background-image: url(../imagenes/img5.jpg);
+  border-radius: 50%;
+  border-color: rgba(122, 113, 29, 0.336);
 }
 
 .item6 {
   grid-area: img6;
   background-image: url(../imagenes/img6.jpg);
+  border-color: rgb(122, 113, 29);
 }
 
 .item7 {
   grid-area: img7;
   background-image: url(../imagenes/img7.jpg);
+  border-radius: 50%;
+  border-color: rgba(122, 113, 29, 0.336);
 }
 
 .item8 {
   grid-area: img8;
   background-image: url(../imagenes/img8.jpg);
+  border-color: rgb(122, 113, 29);
 }
 
 .item9 {
   grid-area: img9;
   background-image: url(../imagenes/img9.jpg);
+  border-radius: 50%;
+  border-color: rgba(122, 113, 29, 0.336);
 }
 
 .item10 {
   grid-area: img10;
   background-image: url(../imagenes/img10.jpg);
+  border-color: rgb(122, 113, 29);
 }
 
 .item11 {
   grid-area: img11;
   background-image: url(../imagenes/img11.jpg);
+  border-radius: 50%;
+  border-color: rgba(122, 113, 29, 0.336);
 }
 
 .item12 {
   grid-area: img12;
   background-image: url(../imagenes/img12.jpg);
+  border-color: rgb(122, 113, 29);
 }
 
 /* Fin Bloque Galeria */
