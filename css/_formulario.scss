@@ -6,22 +6,17 @@
     text-align: center;
     margin: 0 auto;
     max-width: 400px;
-}
 
-.form-contacto button {
-    background-color: $color-footer;
-    border: 1px solid $color-secundario !important;
-}
+    button {
+        background-color: $color-secundario;
+        border: 1px solid $color-secundario !important;
 
-.form-contacto button:hover {
-    background-color: var(--color-secundario);
-    color: #FFF;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
-}
-
-.maps {
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.904);
+        &:hover {
+            background-color: $color-footer;
+            color: #000;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+        }
+    }
 }
 
 /* Fin Formulario Contacto */

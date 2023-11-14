@@ -12,12 +12,13 @@ form input:focus {
 .form-news {
     text-align: center;
     padding: 20px;
+
+    input {
+
+        width: 300px;
+
+    }
 }
 
-.form-news input {
-
-    width: 300px;
-
-}
 
 /* Fin Newsletter */

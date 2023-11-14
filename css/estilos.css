@@ -10,35 +10,39 @@
 }
 
 /* Inicio Footer */
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(122, 113, 29, 0.336);
+  color: #fff;
+  font-size: 15px;
+}
+
 .boxfooter {
   height: auto;
   background-color: rgba(122, 113, 29, 0.336);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.482);
 }
-
-.footer-prim {
-  background-color: rgb(122, 113, 29);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
-}
-
 .boxfooter a {
   text-decoration: none;
   color: #000;
 }
-
 .boxfooter a:hover {
   color: rgb(122, 113, 29);
 }
-
 .boxfooter i {
   font-size: x-large;
 }
-
-.boxfooter h6 {
+.boxfooter i:hover {
+  color: #FFF;
+}
+.boxfooter h3 {
   color: #FFF;
 }
 
-.boxfooter img {
+.footer-prim {
+  background-color: rgb(122, 113, 29);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
   padding: 10px;
 }
 
@@ -50,6 +54,14 @@
   align-self: center;
 }
 
+.rotate-animation, .fa-location-dot, .fa-whatsapp, .fa-phone, .fa-envelope {
+  transform: rotate(0deg);
+  transition: transform 1s ease-in-out;
+}
+.rotate-animation:hover, .fa-location-dot:hover, .fa-whatsapp:hover, .fa-phone:hover, .fa-envelope:hover {
+  transform: rotate(360deg);
+}
+
 /* Fin Footer */
 /* Inicio Formulario Contacto */
 .form-contacto {
@@ -59,21 +71,14 @@
   margin: 0 auto;
   max-width: 400px;
 }
-
 .form-contacto button {
-  background-color: rgba(122, 113, 29, 0.336);
+  background-color: rgb(122, 113, 29);
   border: 1px solid rgb(122, 113, 29) !important;
 }
-
 .form-contacto button:hover {
-  background-color: var(--color-secundario);
-  color: #FFF;
+  background-color: rgba(122, 113, 29, 0.336);
+  color: #000;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
-}
-
-.maps {
-  border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.904);
 }
 
 /* Fin Formulario Contacto */
@@ -96,7 +101,6 @@
   background-size: cover;
   border-radius: 10px;
 }
-
 .item:hover {
   filter: grayscale(100%);
   transform: scale(1.1);
@@ -105,62 +109,62 @@
 
 .item1 {
   grid-area: img1;
-  background-image: url(/imagenes/img1.jpg);
+  background-image: url(../imagenes/img1.jpg);
 }
 
 .item2 {
   grid-area: img2;
-  background-image: url(/imagenes/img2.jpg);
+  background-image: url(../imagenes/img2.jpg);
 }
 
 .item3 {
   grid-area: img3;
-  background-image: url(/imagenes/img3.jpg);
+  background-image: url(../imagenes/img3.jpg);
 }
 
 .item4 {
   grid-area: img4;
-  background-image: url(/imagenes/img4.jpg);
+  background-image: url(../imagenes/img4.jpg);
 }
 
 .item5 {
   grid-area: img5;
-  background-image: url(/imagenes/img5.jpg);
+  background-image: url(../imagenes/img5.jpg);
 }
 
 .item6 {
   grid-area: img6;
-  background-image: url(/imagenes/img6.jpg);
+  background-image: url(../imagenes/img6.jpg);
 }
 
 .item7 {
   grid-area: img7;
-  background-image: url(/imagenes/img7.jpg);
+  background-image: url(../imagenes/img7.jpg);
 }
 
 .item8 {
   grid-area: img8;
-  background-image: url(/imagenes/img8.jpg);
+  background-image: url(../imagenes/img8.jpg);
 }
 
 .item9 {
   grid-area: img9;
-  background-image: url(/imagenes/img9.jpg);
+  background-image: url(../imagenes/img9.jpg);
 }
 
 .item10 {
   grid-area: img10;
-  background-image: url(/imagenes/img10.jpg);
+  background-image: url(../imagenes/img10.jpg);
 }
 
 .item11 {
   grid-area: img11;
-  background-image: url(/imagenes/img11.jpg);
+  background-image: url(../imagenes/img11.jpg);
 }
 
 .item12 {
   grid-area: img12;
-  background-image: url(/imagenes/img12.jpg);
+  background-image: url(../imagenes/img12.jpg);
 }
 
 /* Fin Bloque Galeria */
@@ -168,7 +172,6 @@
 .item-logo {
   font-size: x-large;
 }
-
 .item-logo a {
   text-decoration: none;
   color: #000;
@@ -237,7 +240,6 @@ form input:focus {
   text-align: center;
   padding: 20px;
 }
-
 .form-news input {
   width: 300px;
 }
@@ -250,11 +252,9 @@ form input:focus {
   align-items: center;
   background-color: rgba(122, 113, 29, 0.336);
 }
-
 .nosotros .cont12a {
   max-width: 1400px;
 }
-
 .nosotros .logo {
   max-width: 550px;
   width: 100%;
@@ -401,6 +401,12 @@ h2 {
   margin: 5px;
   border-radius: 10px;
 }
+.producto:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+.producto:hover .precio {
+  color: rgb(122, 113, 29);
+}
 
 del {
   font-size: small;
@@ -408,13 +414,6 @@ del {
 
 .precio {
   color: #000;
-}
-
-.producto:hover {
-  border: 1px solid rgb(0, 0, 0);
-}
-.producto:hover .precio {
-  color: rgb(122, 113, 29);
 }
 
 .sku {

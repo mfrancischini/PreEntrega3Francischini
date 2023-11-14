@@ -7,6 +7,14 @@
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
+
+    &:hover {
+        border: 1px solid rgb(0, 0, 0);
+
+        .precio {
+            color: $color-secundario;
+        }
+    }
 }
 
 del {
@@ -16,15 +24,7 @@ del {
 .precio {
     color: #000;
 
-    
-}
 
-.producto:hover {
-    border: 1px solid rgb(0, 0, 0);
-
-    .precio {
-        color: $color-secundario;
-    }
 }
 
 .sku {
@@ -59,8 +59,5 @@ del {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
     }
 
-        
 }
-
-
 /* Fin Productos */

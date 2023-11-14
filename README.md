@@ -1,6 +1,6 @@
 # PreEntrega2Francischini
 # 💫 About Me:
-Hola soy Mariano Francischini<br>Esta es la 2da Entrega del Proyecto para el curso de Desarrollo Web en CoderHouse<br>El Proyecto esta realizado en Studio Code en Html y CSS utilizando Bootstrap 5.<br>
+Hola soy Mariano Francischini<br>Esta es la 3ra Entrega del Proyecto para el curso de Desarrollo Web en CoderHouse<br>El Proyecto esta realizado en Studio Code en Html y CSS utilizando Bootstrap 5.<br>
 
 
 ## 🌐 Socials:

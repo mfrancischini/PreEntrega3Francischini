@@ -1,34 +1,45 @@
 /* Inicio Footer */
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(122, 113, 29, 0.336);
+    color: #fff;
+    font-size: 15px;
+  }
+
 .boxfooter {
     height: auto;
     background-color: $color-footer;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.482);
 
-}
+    a {
+        text-decoration: none;
+        color: #000;
+
+        &:hover {
+            color: $color-secundario;
+        }
+        
+    }
+    
+    i {
+        font-size: x-large;
+
+        &:hover{
+            color: #FFF;
+        }
+    }
+
+    h3 {
+        color: #FFF;
+    }
+
+ }
 
 .footer-prim {
     background-color: $color-secundario;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
-}
-
-.boxfooter a {
-    text-decoration: none;
-    color: #000;
-}
-
-.boxfooter a:hover {
-    color: $color-secundario;
-}
-
-.boxfooter i {
-    font-size: x-large;
-}
-
-.boxfooter h6 {
-    color: #FFF;
-}
-
-.boxfooter img {
     padding: 10px;
 }
 
@@ -38,6 +49,35 @@
 
 .redes {
     align-self: center;
+}
+
+// Definir variables para la duración y el tipo de animación
+$animation-duration: 1s;
+$animation-timing-function: ease-in-out;
+
+.rotate-animation {
+  transform: rotate(0deg);
+  transition: transform $animation-duration $animation-timing-function;
+
+  &:hover {
+    transform: rotate(360deg);
+  }
+}
+
+.fa-envelope {
+  @extend .rotate-animation;
+}
+
+.fa-phone {
+  @extend .rotate-animation;
+}
+
+.fa-whatsapp {
+  @extend .rotate-animation;
+}
+
+.fa-location-dot{
+    @extend .rotate-animation;
 }
 
 /* Fin Footer */

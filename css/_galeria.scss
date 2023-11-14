@@ -21,18 +21,20 @@
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+
+    &:hover {
+        filter: grayscale(100%);
+        transform: scale(1.1);
+        transition: all 0.7s;
+    }
 }
 
-.item:hover {
-    filter: grayscale(100%);
-    transform: scale(1.1);
-    transition: all 0.7s;
-}
+
 
 @for $i from 1 through 12 {
     .item#{$i} {
         grid-area: img#{$i};
-        background-image:url(/imagenes/img#{$i}.jpg);
+        background-image:url(../imagenes/img#{$i}.jpg);
     }
 
 }
