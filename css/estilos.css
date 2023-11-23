@@ -23,19 +23,24 @@ h3 {
   background-color: rgba(122, 113, 29, 0.336);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.482);
 }
+
 .boxfooter a {
   text-decoration: none;
   color: #000;
 }
+
 .boxfooter a:hover {
   color: rgb(122, 113, 29);
 }
+
 .boxfooter i {
   font-size: x-large;
 }
+
 .boxfooter i:hover {
   color: #FFF;
 }
+
 .boxfooter h3 {
   color: #FFF;
 }
@@ -58,6 +63,7 @@ h3 {
   transform: rotate(0deg);
   transition: transform 1s ease-in-out;
 }
+
 .rotate-animation:hover, .fa-location-dot:hover, .fa-whatsapp:hover, .fa-phone:hover, .fa-envelope:hover {
   transform: rotate(360deg);
 }
@@ -71,10 +77,12 @@ h3 {
   margin: 0 auto;
   max-width: 400px;
 }
+
 .form-contacto button {
   background-color: rgb(122, 113, 29);
   border: 1px solid rgb(122, 113, 29) !important;
 }
+
 .form-contacto button:hover {
   background-color: rgba(122, 113, 29, 0.336);
   color: #000;
@@ -92,6 +100,7 @@ a {
   text-decoration: none;
   color: #000;
 }
+
 a:hover {
   color: rgb(122, 113, 29);
 }
@@ -121,6 +130,7 @@ span {
   background-size: cover;
   border-radius: 10px;
 }
+
 .item:hover {
   filter: grayscale(100%);
   transform: scale(1.1);
@@ -210,6 +220,7 @@ span {
 .item-logo {
   font-size: x-large;
 }
+
 .item-logo a {
   text-decoration: none;
   color: #000;
@@ -278,6 +289,7 @@ form input:focus {
   text-align: center;
   padding: 20px;
 }
+
 .form-news input {
   width: 300px;
 }
@@ -290,9 +302,11 @@ form input:focus {
   align-items: center;
   background-color: rgba(122, 113, 29, 0.336);
 }
+
 .nosotros .cont12a {
   max-width: 1400px;
 }
+
 .nosotros .logo {
   max-width: 550px;
   width: 100%;
@@ -424,6 +438,7 @@ h2 {
   color: #000;
   background-color: rgba(122, 113, 29, 0.336);
 }
+
 .btn-nov:hover {
   background-color: rgb(122, 113, 29);
   color: #FFF;
@@ -439,9 +454,11 @@ h2 {
   margin: 5px;
   border-radius: 10px;
 }
+
 .producto:hover {
   border: 1px solid rgb(0, 0, 0);
 }
+
 .producto:hover .precio {
   color: rgb(122, 113, 29);
 }
@@ -480,6 +497,7 @@ del {
   font-size: 10px;
   box-shadow: 2px 2px 5px #fff;
 }
+
 .ver-producto:hover {
   background-color: rgb(122, 113, 29);
   color: #FFF;
@@ -517,6 +535,11 @@ del {
   }
 }
 /* Fin Whatsapp */
+@media only screen and (max-width: 320px) {
+  .newsletter {
+    width: 90%;
+  }
+}
 @media (max-width: 576px) {
   .producto {
     width: 100%;
@@ -555,5 +578,4 @@ del {
     height: 100%;
   }
 }
-
 /*# sourceMappingURL=estilos.css.map */

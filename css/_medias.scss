@@ -1,0 +1,63 @@
+@media (max-width: 576px) {
+
+    .producto {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .producto {
+        width: 100%;
+    }
+}
+
+/* aplica desde 0 hasta 468px */
+/* Se acomodan las imagenes de la galeria en la vista en 1 col y 12 row */
+@media only screen and (max-width: 468px) {
+    .contenedor-imagenes {
+        background-color: $color-principal;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 250px);
+        grid-template-areas:
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+            "img8"
+            "img9"
+            "img10"
+            "img11"
+            "img12"
+        ;
+        grid-gap: 15px;
+        padding: 30px;
+        width: 100%;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+/* Se acomodan las imagenes de la galeria en la vista en 2 col y 6 row */
+@media only screen and (min-width: 469px) and (max-width: 767px) {
+    .contenedor-imagenes {
+        background-color: $color-principal;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 250px);
+        grid-template-areas:
+            "img1 img2"
+            "img3 img4"
+            "img5 img6"
+            "img7 img8"
+            "img9 img10"
+            "img11 img12"
+        ;
+        grid-gap: 15px;
+        padding: 30px;
+        width: 100%;
+        height: 100%;
+    }
+}
