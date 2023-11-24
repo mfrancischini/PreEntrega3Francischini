@@ -13,22 +13,10 @@
     font-size: 25px;
     box-shadow: 2px 2px 5px #fff;
     border-radius: 50%;
-    animation: rebote 3 * 3s ease-in-out infinite alternate;
 }
 
 .whatsapp:hover {
     color: $color-principal;
 }
-
-
-@keyframes rebote {
-    to {
-      transform: translateY(-100vh);
-    }
-  
-    30% {
-      transform: translateY(0);
-    }
-  }
 
 /* Fin Whatsapp */

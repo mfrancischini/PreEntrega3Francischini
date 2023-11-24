@@ -78,4 +78,27 @@ h3 {
     @extend .rotate-animation;
 }
 
+
+
+
+/* Flotante */
+.flotante {
+
+  animation: rebote 3 * 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes rebote {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Fin Whatsapp */
+
+
+
 /* Fin Footer */
