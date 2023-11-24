@@ -63,9 +63,9 @@ h2 {
 
 
 
-/* Efecto de aumento al pasar el ratón */
+/* Efecto de disminuir al pasar el ratón */
 .card:hover {
-  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+  transform: scale(0.9); /* Disminuye el tamaño al 90% */
 }
 
 .card-title {

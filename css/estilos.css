@@ -293,7 +293,7 @@ form input:focus {
   padding: 20px;
 }
 .form-news input {
-  width: 300px;
+  width: 200px;
 }
 
 /* Fin Newsletter */
@@ -417,9 +417,9 @@ h2 {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Efecto de aumento al pasar el ratón */
+/* Efecto de disminuir al pasar el ratón */
 .card:hover {
-  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+  transform: scale(0.9); /* Disminuye el tamaño al 90% */
 }
 
 .card-title {
