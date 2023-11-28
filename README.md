@@ -1,6 +1,35 @@
 # PreEntrega2Francischini
 # 💫 About Me:
-Hola soy Mariano Francischini<br>Esta es la 3ra Entrega del Proyecto para el curso de Desarrollo Web en CoderHouse<br>El Proyecto esta realizado en Studio Code en Html y CSS utilizando Bootstrap 5.<br>
+# Proyecto Final - Desarrollo Web
+
+¡Hola! Soy Mariano Francischini. Esta es la entrega del Proyecto Final para el curso de Desarrollo Web en CoderHouse.
+
+## Descripción del Proyecto
+
+El proyecto fue desarrollado en Visual Studio Code utilizando HTML y CSS, con Bootstrap 5 como framework CSS. Además, se utilizó el preprocesador SAS para mejorar la eficiencia en el desarrollo.
+
+## Versionado y Repositorio
+
+El versionado del proyecto fue controlado mediante Git y se encuentra alojado en un repositorio en GitHub.
+
+## Tecnologías Utilizadas
+
+Dentro del proyecto, se trabajó con las siguientes tecnologías y conceptos:
+
+- HTML5
+- CSS con SASS como procesador
+- Bootstrap 5
+- Grid
+- Animaciones
+- SEO (Optimización para Motores de Búsqueda)
+- Entre otros
+
+## Descripción del Proyecto
+
+El proyecto consiste en el desarrollo de un E-commerce para una juguetería, abarcando diferentes aspectos del desarrollo web.
+
+¡Gracias por revisar el proyecto!
+
 
 
 ## 🌐 Socials:
